@@ -8,7 +8,7 @@ $data = array();
 while ($row = mysqli_fetch_assoc($result)) {
     $data[] = $row;
 }
-// print json_encode($data);
-print "<pre>";
-print_r($data);
-print "</pre>";
+print json_encode($data);
+// print "<pre>";
+// print_r($data);
+// print "</pre>";
